@@ -1,10 +1,11 @@
-﻿export module concept_test;
+﻿module;
 
-import <concepts>;
-import <iostream>;
+#include <concepts>
+#include <iostream>
 
+export module concept_test;
 
-export namespace concept_test
+export namespace WD::Concept
 {
     int add(int a, int b);
 }

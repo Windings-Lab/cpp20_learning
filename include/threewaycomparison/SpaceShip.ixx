@@ -1,13 +1,12 @@
 ﻿export module SpaceShip;
 
-import <compare>;
-import <iostream>;
-import <concepts>;
+#include <iostream>
+#include <compare>
 
 export class MyInt
 {
 public:
-    MyInt(int Num) : mNum(Num) {}
+    explicit MyInt(const int Num) : mNum(Num) {}
 
     auto operator<=>(const MyInt&) const = default;
     

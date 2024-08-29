@@ -1,9 +1,11 @@
-﻿export module custom_math;
+﻿module;
 
-import <concepts>;
-import <iostream>;
+#include <concepts>
+#include <iostream>
 
-export namespace custom_math
+export module custom_math;
+
+export namespace WD::Math
 {
     int add(int a, int b);
 }

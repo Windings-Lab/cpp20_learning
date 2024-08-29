@@ -1,6 +1,6 @@
 ﻿module concept_test;
 
-namespace concept_test
+namespace WD::Concept
 {
     int add(int a, int b)
     {
